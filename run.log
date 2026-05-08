@@ -1,0 +1,11 @@
+2026-05-08T18:19:52 | INFO     | === Job start ===
+2026-05-08T18:19:52 | INFO     | Args — input=data.csv  config=config.yaml  output=metrics.json  log=run.log
+2026-05-08T18:19:52 | INFO     | Config loaded — version=v1  seed=42  window=5
+2026-05-08T18:19:52 | INFO     | NumPy seed set to 42
+2026-05-08T18:19:52 | INFO     | Dataset loaded — 10000 rows, 7 columns
+2026-05-08T18:19:52 | DEBUG    | Columns: ['timestamp', 'open', 'high', 'low', 'close', 'volume_btc', 'volume_usd']
+2026-05-08T18:19:52 | INFO     | Rolling mean computed — window=5  valid_rows=9996  NaN_rows=4
+2026-05-08T18:19:52 | INFO     | Signal generated — rows_with_signal=9996  signal_1_count=4989  signal_0_count=5007
+2026-05-08T18:19:52 | INFO     | Metrics summary — rows_processed=9996  signal_rate=0.4991  latency_ms=21
+2026-05-08T18:19:52 | INFO     | Metrics written to metrics.json
+2026-05-08T18:19:52 | INFO     | === Job end — status=success ===
